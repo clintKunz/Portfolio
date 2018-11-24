@@ -3890,3 +3890,9 @@ input, select, textarea {
 			}
 
 		}
+
+/* three */
+
+	#three {
+		background-image: url("images/intro.svg");
+	}
