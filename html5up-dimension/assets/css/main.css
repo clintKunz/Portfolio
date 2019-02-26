@@ -1175,6 +1175,9 @@ input, select, textarea {
 
 		body.is-preload #bg:before {
 			background-color: #000000;
+		}
+
+		#loader {
 			position: absolute;
 			left: 50%;
 			top: 50%;
