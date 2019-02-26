@@ -13,10 +13,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body onload="pauseForLoad()" class="is-preload">
+	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" style="display:none;">
+			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
@@ -401,7 +401,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- BG -->
-			<div id="loader"></div>
+			<div id="bg"></div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -409,7 +409,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
+			<!-- <script>
 				let pause;
 				function pauseForLoad() {
 					pause = setTimeout(showPage, 4000);
@@ -418,7 +418,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					document.getElementById('loader').id = "bg"
 					document.getElementById('wrapper').style = ""
 				}
-			</script>
+			</script> -->
 
 	</body>
 </html>
