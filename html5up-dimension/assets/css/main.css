@@ -674,6 +674,8 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				-webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+  				filter: grayscale(90%);
 			}
 
 		.image.fit.extra img {
@@ -681,6 +683,9 @@ input, select, textarea {
 			width: 65%;
 		}
 
+		.image.family img {
+			width: 100%; 
+		}
 
 		.image.main {
 			display: block;
@@ -690,6 +695,13 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				-webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+  				filter: grayscale(80%);
+			}
+
+			.image.main img:hover {
+				-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  				filter: grayscale(0%);
 			}
 
 		@media screen and (max-width: 736px) {
