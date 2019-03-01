@@ -171,7 +171,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
+		line-height: 1.5rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -180,7 +181,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.15rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -201,13 +202,13 @@ input, select, textarea {
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.15rem;
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.15rem;
 	}
 
 	h3 {
@@ -642,7 +643,6 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
-			margin: 0.25em; 
 		}
 
 		.image.left, .image.right {
@@ -667,7 +667,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2rem 0;
+			margin: 0 0 1rem 0;
 			width: 40%;
 			max-width: 200px;  
 		}
@@ -679,8 +679,16 @@ input, select, textarea {
 			}
 
 		.image.fit.extra img {
-			margin: 1.75em 0 .5em .75em;
+			margin: 1.75em 0 .5em 0;
 			width: 65%;
+		}
+
+		.image.fit.minus img {
+			margin: -.7em 0 -.7em -.5em; 
+		}
+
+		.image.fit.xminus img {
+			margin-left: -.4em; 
 		}
 
 		.image.family img {
@@ -689,7 +697,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
+			margin-bottom: 1em; 
 			width: 100%;
 		}
 
@@ -700,6 +708,8 @@ input, select, textarea {
 			}
 
 			.image.main img:hover {
+				cursor: pointer;
+
 				-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   				filter: grayscale(0%);
 			}
@@ -1025,6 +1035,7 @@ input, select, textarea {
 		line-height: 2.75rem;
 		outline: 0;
 		padding: 0 1.25rem 0 1.35rem;
+		margin-bottom: 6rem; 
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -1362,7 +1373,7 @@ input, select, textarea {
 
 			#header .content p {
 				text-transform: uppercase;
-				letter-spacing: 0.2rem;
+				letter-spacing: 0.1rem;
 				font-size: 0.8rem;
 				line-height: 2;
 			}
@@ -1655,6 +1666,19 @@ input, select, textarea {
 
 		}
 
+	#work ul {
+		margin-bottom: 5rem; 
+	}
+
+	#work ul li {
+		line-height: 1.3rem;
+    	margin: .5rem;
+	}
+
+	#work h3 {
+		margin-bottom: 0; 
+	}
+
 /* Footer */
 
 	#footer {
@@ -1670,7 +1694,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
+			font-size: 0.65rem;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
