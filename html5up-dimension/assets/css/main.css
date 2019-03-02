@@ -1035,7 +1035,6 @@ input, select, textarea {
 		line-height: 2.75rem;
 		outline: 0;
 		padding: 0 1.25rem 0 1.35rem;
-		margin-bottom: 6rem; 
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -1113,6 +1112,10 @@ input, select, textarea {
 	input[type="button"],
 	button {
 		line-height: calc(2.75rem - 2px);
+	}
+
+	#intro button {
+		margin-bottom: 6rem; 
 	}
 
 /* BG */
