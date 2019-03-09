@@ -693,6 +693,7 @@ input, select, textarea {
 
 		.image.family img {
 			height: 300px;
+			margin-right: 2em; 
 		}
 
 		.image.main {
@@ -1685,6 +1686,17 @@ input, select, textarea {
 	#about h3 {
 		margin-top: 3rem; 
 	}
+
+	#about .pic-text-container {
+		display: flex;
+	}
+
+	@media screen and (max-width: 480px) {
+		#about .pic-text-container {
+			display: inline-block; 
+		}
+	}
+
 
 /* Footer */
 
